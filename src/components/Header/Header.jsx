@@ -1,9 +1,23 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+
 
 const Header = () => {
   return (
-    <div>
-      <h1> Header </h1>
+    <div className='header'>
+
+      <Link
+        to='/'
+      >
+      
+      </Link>
+
+      <div className='logo'>Movie App</div>
+
+      <div className='user-image'>
+        <img src='' alt='user'/>
+      </div>
+      
     </div>
   )
 }
